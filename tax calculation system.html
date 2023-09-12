@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tax calculation system</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+</head>
+<body>
+<div class="container">
+
+<div class="offcanvas offcanvas-start show text-bg-dark container" tabindex="-1" id="offcanvasDark" aria-labelledby="offcanvasDarkLabel">
+
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkLabel">tax calculation system</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvasDark" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+
+        <form>
+
+                <div class="mb-3">
+                    <label for="disabledTextInput" class="form-label">company name</label>
+                    <input type="text" id="disabledTextInput" class="form-control" placeholder="company name">
+                </div>
+                <div class="mb-3">
+                    <label for="disabledSelect" class="form-label">taype of company</label>
+                    <select id="disabledSelect" class="form-select">
+                        <option>Limited Liability Company (LLC)</option>
+                        <option>Joint Stock Company (SAOG/SAOC)</option>
+                        <option>Partnership Company</option>
+                        <option>Branch Office</option>
+                        <option>Representative Office</option>
+                    </select>
+                </div>
+            <div class="mb-3">
+                <label for="disabledTextInput" class="form-label">year</label>
+                <input type="text" id="disabledTextInput" class="form-control" placeholder="year">
+            </div>
+            <div class="mb-3">
+                <label for="disabledTextInput" class="form-label">Net Income</label>
+                <input type="text" id="disabledTextInput" class="form-control" placeholder="Net Income">
+            </div>
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" >
+                        <label class="form-check-label" for="disabledFieldsetCheck">
+                            Verify all information
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">calculate</button>
+
+        </form>
+    </div>
+</div>
+        </div>
+<!------------------------------->
+
+<div>
+
+<h1>you comany name is :</h1>
+
+
+</div>
+</body>
+</html>
